@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="Cadastro_Fluxo_Caixa.php" method="post">
+    <div>
+        <label for="data">Data:</label>
+        <input type="date" name="data" id="data">
+    </div>
+    <div>
+        <label for="Tipo">Tipo:</label>
+        <input type="radio" name="entrada" id="entrada" value="1" label for="entrada">Entrada</label>
+        <input type="radio" name="saida" id="saida" value="2" label for="saida">Saida</label>
+    </div>
+    <div>
+        <label for="Valor">Valor:</label>
+        <input type="number" name="number" id="number">
+    </div>
+    <div>
+        <label for="Historico">Historico:</label>
+        <input type="s" name="text" id="text">
+    </div>
+    <div>
+        <label for="Cheque">Cheque</label>
+        <input type="radio" name="sim" id="sim" value="1" label for="entrada">Sim</label>
+        <input type="radio" name="nao" id="nao" value="2" label for="saida">Não</label>
+    </div>
+    <div>
+        <button type="submit">Cadastrar</button>
+    </div>
+    <div>
+        <button type="reset">Apagar</button>
+    </div>
+    <div>
+        <a href="index.php"><input type="button" value="Voltar ao Inicio"></a>
+    </div>
+</form>
+</body>
+</html>
