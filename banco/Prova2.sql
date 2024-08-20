@@ -1,10 +1,9 @@
 
-Drop database if exists fluxo_caixa;
+DROP DATABASE IF EXISTS Prova2;
+CREATE  DATABASE IF NOT EXISTS Prova2;
+USE Prova2;
 
-Create  database if not exists fluxo_caixa;
-
-use fluxo_caixa;
-
+DROP TABLE IF EXISTS fluxo_caixa;
 CREATE TABLE fluxo_caixa
 (
     id		INTEGER	    NOT NULL AUTO_INCREMENT,
